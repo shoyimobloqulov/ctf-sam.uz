@@ -1,0 +1,2 @@
+Bot:
+    Register(first_name,last_name,call) => (login,password)
