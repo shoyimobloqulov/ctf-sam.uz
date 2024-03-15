@@ -58,19 +58,18 @@ class LoginRegisterController extends Controller
     /**
      * Display a dashboard to authenticated users.
      *
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Foundation\Application
+     * @return
      */
-    public function dashboard(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Foundation\Application
+    public function dashboard(): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application|\Illuminate\Http\RedirectResponse
     {
         if(Auth::check())
         {
-            return view('auth.dashboard');
+            return view('dashboard');
         }
 
-        return redirect()->route('login')
-            ->withErrors([
-                'login' => 'Please login to access the dashboard.',
-            ])->onlyInput('login');
+        toastr()->error('Tizimga kirish uchun login va parolni kiriting!', 'Oops!');
+
+        return redirect()->route('login');
     }
 
     /**

@@ -13,7 +13,7 @@
                         </div>
                     @else
                         <div class="alert alert-success">
-                            You are logged in!
+                            Tizimga muofaqiyatli kirdingiz
                         </div>
                     @endif
                 </div>
