@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "333b5044e05021fa7335089a3df79cff",
+    "content-hash": "adf68ac6cb34aeae1f02d52baae8c6a5",
     "packages": [
         {
             "name": "azate/laravel-telegram-login-auth",
@@ -1103,16 +1103,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.47.0",
+            "version": "v10.48.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "fce29b8de62733cdecbe12e3bae801f83fff2ea4"
+                "reference": "5791c052b41c6b593556adc687076bfbdd13c501"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/fce29b8de62733cdecbe12e3bae801f83fff2ea4",
-                "reference": "fce29b8de62733cdecbe12e3bae801f83fff2ea4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/5791c052b41c6b593556adc687076bfbdd13c501",
+                "reference": "5791c052b41c6b593556adc687076bfbdd13c501",
                 "shasum": ""
             },
             "require": {
@@ -1160,6 +1160,7 @@
             "conflict": {
                 "carbonphp/carbon-doctrine-types": ">=3.0",
                 "doctrine/dbal": ">=4.0",
+                "mockery/mockery": "1.6.8",
                 "phpunit/phpunit": ">=11.0.0",
                 "tightenco/collect": "<5.5.33"
             },
@@ -1305,7 +1306,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-03-05T15:18:36+00:00"
+            "time": "2024-03-15T10:17:07+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -1746,16 +1747,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.24.0",
+            "version": "3.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "b25a361508c407563b34fac6f64a8a17a8819675"
+                "reference": "4c44347133618cccd9b3df1729647a1577b4ad99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/b25a361508c407563b34fac6f64a8a17a8819675",
-                "reference": "b25a361508c407563b34fac6f64a8a17a8819675",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/4c44347133618cccd9b3df1729647a1577b4ad99",
+                "reference": "4c44347133618cccd9b3df1729647a1577b4ad99",
                 "shasum": ""
             },
             "require": {
@@ -1783,7 +1784,7 @@
                 "friendsofphp/php-cs-fixer": "^3.5",
                 "google/cloud-storage": "^1.23",
                 "microsoft/azure-storage-blob": "^1.1",
-                "phpseclib/phpseclib": "^3.0.34",
+                "phpseclib/phpseclib": "^3.0.36",
                 "phpstan/phpstan": "^1.10",
                 "phpunit/phpunit": "^9.5.11|^10.0",
                 "sabre/dav": "^4.6.0"
@@ -1820,7 +1821,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.24.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.25.0"
             },
             "funding": [
                 {
@@ -1832,7 +1833,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-04T12:10:17+00:00"
+            "time": "2024-03-09T17:06:45+00:00"
         },
         {
             "name": "league/flysystem-local",
@@ -2506,6 +2507,195 @@
             "time": "2023-02-08T01:06:31+00:00"
         },
         {
+            "name": "php-flasher/flasher",
+            "version": "v1.15.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-flasher/flasher.git",
+                "reference": "33ae74e73f62814fff4e78e78f912d9b6ddf82d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-flasher/flasher/zipball/33ae74e73f62814fff4e78e78f912d9b6ddf82d0",
+                "reference": "33ae74e73f62814fff4e78e78f912d9b6ddf82d0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "helpers.php"
+                ],
+                "psr-4": {
+                    "Flasher\\Prime\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Younes KHOUBZA",
+                    "email": "younes.khoubza@gmail.com",
+                    "homepage": "https://www.linkedin.com/in/younes-khoubza",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHPFlasher - A powerful & easy-to-use package for adding flash messages to Laravel or Symfony projects. Provides feedback to users, improves engagement & enhances user experience. Intuitive design for beginners & experienced developers. A reliable, flexible solution.",
+            "homepage": "https://php-flasher.io",
+            "keywords": [
+                "custom-adapter",
+                "dark-mode",
+                "desktop-notifications",
+                "flash-messages",
+                "framework-agnostic",
+                "javascript",
+                "laravel",
+                "notification-system",
+                "noty",
+                "notyf",
+                "php",
+                "php-flasher",
+                "phpstorm-auto-complete",
+                "pnotify",
+                "rtl",
+                "sweetalert",
+                "symfony",
+                "toastr",
+                "user-experience",
+                "user-feedback",
+                "yoeunes"
+            ],
+            "support": {
+                "source": "https://github.com/php-flasher/flasher/tree/v1.15.12"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/paypalme/yoeunes",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/yoeunes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://ko-fi.com/yoeunes",
+                    "type": "ko_fi"
+                },
+                {
+                    "url": "https://opencollective.com/php-flasher",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/yoeunes",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2023-12-16T17:11:36+00:00"
+        },
+        {
+            "name": "php-flasher/flasher-laravel",
+            "version": "v1.15.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-flasher/flasher-laravel.git",
+                "reference": "952adb508b0a2991fb7c90cc14164f2485aea899"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-flasher/flasher-laravel/zipball/952adb508b0a2991fb7c90cc14164f2485aea899",
+                "reference": "952adb508b0a2991fb7c90cc14164f2485aea899",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
+                "php": ">=5.3",
+                "php-flasher/flasher": "^1.15.12"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Flasher": "Flasher\\Laravel\\Facade\\Flasher"
+                    },
+                    "providers": [
+                        "Flasher\\Laravel\\FlasherServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flasher\\Laravel\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Younes KHOUBZA",
+                    "email": "younes.khoubza@gmail.com",
+                    "homepage": "https://www.linkedin.com/in/younes-khoubza",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHPFlasher - A powerful & easy-to-use package for adding flash messages to Laravel or Symfony projects. Provides feedback to users, improves engagement & enhances user experience. Intuitive design for beginners & experienced developers. A reliable, flexible solution.",
+            "homepage": "https://php-flasher.io",
+            "keywords": [
+                "custom-adapter",
+                "dark-mode",
+                "desktop-notifications",
+                "flash-messages",
+                "framework-agnostic",
+                "javascript",
+                "laravel",
+                "notification-system",
+                "noty",
+                "notyf",
+                "php",
+                "php-flasher",
+                "phpstorm-auto-complete",
+                "pnotify",
+                "rtl",
+                "sweetalert",
+                "symfony",
+                "toastr",
+                "user-experience",
+                "user-feedback",
+                "yoeunes"
+            ],
+            "support": {
+                "source": "https://github.com/php-flasher/flasher-laravel/tree/v1.15.12"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/paypalme/yoeunes",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/yoeunes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://ko-fi.com/yoeunes",
+                    "type": "ko_fi"
+                },
+                {
+                    "url": "https://opencollective.com/php-flasher",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/yoeunes",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2024-03-14T00:15:01+00:00"
+        },
+        {
             "name": "phpoption/phpoption",
             "version": "1.9.2",
             "source": {
@@ -2994,16 +3184,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.0",
+            "version": "v0.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "750bf031a48fd07c673dbe3f11f72362ea306d0d"
+                "reference": "39621c73e0754328252f032c6997b983afc50431"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/750bf031a48fd07c673dbe3f11f72362ea306d0d",
-                "reference": "750bf031a48fd07c673dbe3f11f72362ea306d0d",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/39621c73e0754328252f032c6997b983afc50431",
+                "reference": "39621c73e0754328252f032c6997b983afc50431",
                 "shasum": ""
             },
             "require": {
@@ -3067,9 +3257,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.0"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.1"
             },
-            "time": "2023-12-20T15:28:09+00:00"
+            "time": "2024-03-15T03:22:57+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -5794,6 +5984,111 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "yoeunes/toastr",
+            "version": "v2.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yoeunes/toastr.git",
+                "reference": "1186df590b9f73a164557309289e707540d45f00"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yoeunes/toastr/zipball/1186df590b9f73a164557309289e707540d45f00",
+                "reference": "1186df590b9f73a164557309289e707540d45f00",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "php-flasher/flasher-laravel": "^1.15.12"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Toastr": "Yoeunes\\Toastr\\Facades\\Toastr"
+                    },
+                    "providers": [
+                        "Yoeunes\\Toastr\\ToastrServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Yoeunes\\Toastr\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Younes KHOUBZA",
+                    "email": "younes.khoubza@gmail.com",
+                    "homepage": "https://www.linkedin.com/in/younes-khoubza",
+                    "role": "Developer"
+                }
+            ],
+            "description": "toastr.js flush notifications for Laravel",
+            "homepage": "https://github.com/yoeunes/toastr",
+            "keywords": [
+                "custom-adapter",
+                "dark-mode",
+                "desktop-notifications",
+                "flash-messages",
+                "framework-agnostic",
+                "javascript",
+                "laravel",
+                "notification-system",
+                "noty",
+                "notyf",
+                "php",
+                "php-flasher",
+                "phpstorm-auto-complete",
+                "pnotify",
+                "rtl",
+                "sweetalert",
+                "symfony",
+                "toastr",
+                "toastr js",
+                "user-experience",
+                "user-feedback",
+                "yoeunes"
+            ],
+            "support": {
+                "docs": "https://github.com/yoeunes/toastr/README.md",
+                "email": "younes.khoubza@gmail.com",
+                "issues": "https://github.com/yoeunes/toastr/issues",
+                "source": "https://github.com/yoeunes/toastr"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/paypalme/yoeunes",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/yoeunes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://ko-fi.com/yoeunes",
+                    "type": "ko_fi"
+                },
+                {
+                    "url": "https://opencollective.com/php-flasher",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/yoeunes",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2024-03-14T00:20:26+00:00"
         }
     ],
     "packages-dev": [
@@ -6050,16 +6345,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.28.2",
+            "version": "v1.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "057777403b8ab79222dcc04983beaab10b6de6a0"
+                "reference": "e40cc7ffb5186c45698dbd47e9477e0e429396d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/057777403b8ab79222dcc04983beaab10b6de6a0",
-                "reference": "057777403b8ab79222dcc04983beaab10b6de6a0",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/e40cc7ffb5186c45698dbd47e9477e0e429396d0",
+                "reference": "e40cc7ffb5186c45698dbd47e9477e0e429396d0",
                 "shasum": ""
             },
             "require": {
@@ -6108,11 +6403,11 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2024-03-04T14:58:29+00:00"
+            "time": "2024-03-08T16:32:33+00:00"
         },
         {
             "name": "mockery/mockery",
-            "version": "1.6.7",
+            "version": "1.6.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
@@ -6468,16 +6763,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "10.1.12",
+            "version": "10.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "842f72662d6b9edda84c4b6f13885fd9cd53dc63"
+                "reference": "e3f51450ebffe8e0efdf7346ae966a656f7d5e5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/842f72662d6b9edda84c4b6f13885fd9cd53dc63",
-                "reference": "842f72662d6b9edda84c4b6f13885fd9cd53dc63",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/e3f51450ebffe8e0efdf7346ae966a656f7d5e5b",
+                "reference": "e3f51450ebffe8e0efdf7346ae966a656f7d5e5b",
                 "shasum": ""
             },
             "require": {
@@ -6534,7 +6829,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/10.1.12"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/10.1.14"
             },
             "funding": [
                 {
@@ -6542,7 +6837,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-02T07:22:05+00:00"
+            "time": "2024-03-12T15:33:41+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -6789,16 +7084,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.11",
+            "version": "10.5.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "0d968f6323deb3dbfeba5bfd4929b9415eb7a9a4"
+                "reference": "20a63fc1c6db29b15da3bd02d4b6cf59900088a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0d968f6323deb3dbfeba5bfd4929b9415eb7a9a4",
-                "reference": "0d968f6323deb3dbfeba5bfd4929b9415eb7a9a4",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/20a63fc1c6db29b15da3bd02d4b6cf59900088a7",
+                "reference": "20a63fc1c6db29b15da3bd02d4b6cf59900088a7",
                 "shasum": ""
             },
             "require": {
@@ -6870,7 +7165,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.11"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.13"
             },
             "funding": [
                 {
@@ -6886,7 +7181,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-25T14:05:00+00:00"
+            "time": "2024-03-12T15:37:41+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -8242,5 +8537,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
